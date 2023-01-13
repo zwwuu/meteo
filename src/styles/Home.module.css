@@ -1,0 +1,7 @@
+.root {
+  @apply min-h-screen space-y-8 bg-teal-900 bg-[url('/peaks.svg')] bg-cover bg-fixed bg-center bg-no-repeat py-8 text-cyan-50;
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-4;
+}

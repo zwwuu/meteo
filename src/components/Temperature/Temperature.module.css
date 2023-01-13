@@ -1,0 +1,23 @@
+.root {
+  @apply mb-4 flex space-x-12;
+}
+
+.weather {
+  @apply flex flex-col items-center;
+}
+
+.temperatures {
+  @apply w-full basis-full space-y-2;
+}
+
+.temperature {
+  @apply text-4xl font-bold;
+}
+
+.feelsLike {
+  @apply text-xl font-semibold opacity-80;
+}
+
+.description {
+  @apply text-2xl font-bold;
+}

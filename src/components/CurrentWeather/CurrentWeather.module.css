@@ -1,0 +1,19 @@
+.root {
+  @apply relative flex flex-col items-center space-y-8 p-8;
+}
+
+.unitSwitcher {
+  @apply flex self-end;
+}
+
+.updatedAt {
+  @apply text-xs font-semibold opacity-80;
+}
+
+.city {
+  @apply text-6xl font-bold;
+}
+
+.details {
+  @apply flex flex-wrap space-x-12;
+}

@@ -1,0 +1,10 @@
+.root {
+}
+
+.message {
+  @apply flex font-semibold;
+}
+
+.icon {
+  @apply mr-2 animate-pulse text-pink-500;
+}

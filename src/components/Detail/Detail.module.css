@@ -1,0 +1,11 @@
+.root {
+  @apply flex flex-col;
+}
+
+.label {
+  @apply opacity-90;
+}
+
+.value {
+  @apply flex text-lg font-semibold;
+}

@@ -1,0 +1,15 @@
+.root {
+  @apply relative flex flex-shrink-0 flex-grow flex-col rounded bg-teal-900 py-4 px-8 shadow;
+}
+
+.weekday {
+  @apply absolute top-0 left-2 select-none text-9xl font-bold uppercase opacity-10;
+}
+
+.date {
+  @apply mt-4 mb-16 border-b text-2xl font-bold;
+}
+
+.details {
+  @apply grid grid-cols-2 gap-6;
+}

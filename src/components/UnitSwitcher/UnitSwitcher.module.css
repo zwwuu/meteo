@@ -1,0 +1,27 @@
+.root {
+  @apply rounded shadow-lg;
+}
+
+.radio {
+  @apply sr-only;
+}
+
+.switch {
+  @apply text-lg font-bold transition-colors hover:bg-teal-500 focus:bg-teal-500;
+}
+
+.switch:first-child {
+  @apply rounded-l;
+}
+
+.switch:last-child {
+  @apply rounded-r;
+}
+
+.switch .label {
+  @apply block cursor-pointer p-4;
+}
+
+.switch.checked {
+  @apply bg-teal-600;
+}
