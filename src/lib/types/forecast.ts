@@ -29,7 +29,7 @@ export function toForecast(data: any): Forecast {
     icon: data.weather[0].icon,
     pressure: data.pressure,
     humidity: data.humidity,
-    precipitation: data.pop * 100,
+    precipitation: Math.round(data.pop * 100),
     wind: {
       speed: data.speed,
       degree: data.deg,
