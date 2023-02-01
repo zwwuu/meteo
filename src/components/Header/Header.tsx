@@ -12,7 +12,7 @@ export default function Header() {
   const handleSearch = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     // return early if location is empty
-    if (!location.trim()) return;
+    if (!location.trim().length) return;
 
     const [cityOrLat, countryOrLon] = location.trim().split(",");
     const lat = Number(cityOrLat);
